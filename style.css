@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #E5E5E5;
+  width: auto;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 2rem;
+}
+
+.principal {
+  margin: 2.5rem;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* área de texto */
+.input {
+  margin-left: 4rem;
+}
+
+.texto {
+  margin: 4rem;
+}
+
+.texto input {
+  font-family: 'Inter', sans-serif;
+  margin: 4rem;
+  font-size: 2rem;
+  color: #0A3871;
+  background: #E5E5E5;
+  border: none;
+}
+
+.atencao {
+  opacity: 0.8px;
+  margin-top: 6rem;
+  font-size: 0.8rem;
+  color: #495057;
+}
+
+.atencao img, p {
+  display: inline-block;
+}
+
+.botoes {
+  margin-top: 1rem;
+}
+
+#criptografar {
+  display: inline-block;
+  padding: 1rem 15%;
+  gap: 0.5rem;
+
+  font-size:16px;
+  background: #0A3871;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+}
+
+#criptografar:hover {
+  background: white;
+  color: black;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+#descriptografar {
+font-size:16px;
+background: #D8DFE8;
+padding: 1rem 13%;
+gap: 0.5rem;
+
+border: 1px solid #0A3871;
+color: #0A3871;
+border-radius: 1rem;
+box-sizing: border-box;
+}
+
+#descriptografar:hover {
+  background: #0A3871;
+  color: white;
+  cursor: pointer;
+  }
+
+/* barra lateral */
+
+.lateral {
+  width: 30%;
+  height: 33rem;
+  background: white;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin-top: -4rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.info {
+  box-sizing: border-box;
+}
+
+.bloco h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #343A40;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#trocar {
+  font-weight: 150;
+  line-height: 1.5rem;
+  text-align: center;
+  
+  text-overflow: center;
+}
+
+#adicionar-botao {
+  display: flex;
+  justify-content:center;
+  align-items: baseline;
+}
+
+#botao-copiar {
+  padding: 1rem 3rem;
+  margin-top: 2rem;
+
+  border: 1px solid #0A3871;
+  color: #0A3871;
+  border-radius: 1rem;
+}
+
+#botao-copiar:hover {
+  background: #D8DFE8;
+  color: black;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+/* rodapé */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(5, 5, 43);
+}
